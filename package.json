@@ -1,6 +1,6 @@
 {
   "name": "grunt-proxy-middleware",
-  "description": "The best Grunt plugin ever.",
+  "description": "proxy tool what uses http-proxy-middleware",
   "version": "0.1.0",
   "homepage": "https://github.com/zll/grunt-proxy-middleware",
   "author": {

@@ -1,6 +1,6 @@
 # grunt-proxy-middleware
 
-> The best Grunt plugin ever.
+> proxy tool what uses http-proxy-middleware.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
