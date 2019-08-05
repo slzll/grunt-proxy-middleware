@@ -47,7 +47,7 @@ module.exports = function(grunt) {
     },
 
     // Configuration to be run (and then tested).
-    proxy_middleware: {
+    proxyMiddleware: {
       proxy_options: {
         "/api": {
           target: "http://www.server.com",
@@ -74,7 +74,7 @@ module.exports = function(grunt) {
 
   // Whenever the "test" task is run, first clean the "tmp" dir, then run this
   // plugin's task(s), then test the result.
-  grunt.registerTask("test", ["clean", "proxy_middleware", "nodeunit"]);
+  grunt.registerTask("test", ["clean", "proxyMiddleware", "nodeunit"]);
 
   // By default, lint and run all tests.
   grunt.registerTask("default", ["jshint", "test"]);

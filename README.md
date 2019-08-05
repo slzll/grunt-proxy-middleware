@@ -35,20 +35,6 @@ grunt.initConfig({
 });
 ```
 
-### Options
-
-#### options.separator
-Type: `String`
-Default value: `',  '`
-
-A string value that is used to do something with whatever.
-
-#### options.punctuation
-Type: `String`
-Default value: `'.'`
-
-A string value that is used to do something else with whatever else.
-
 ### Usage Examples
 
 #### Options
@@ -56,7 +42,7 @@ In this example, the options just like options in `http-proxy-middleware`
 
 ```js
 grunt.initConfig({
-  proxy_middleware: {
+  proxyMiddleware: {
     options: {
       "/api": {
         target: "http://www.server.com",

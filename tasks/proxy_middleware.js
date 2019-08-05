@@ -14,7 +14,7 @@ module.exports = function(grunt) {
   // Please see the Grunt documentation for more information regarding task
   // creation: http://gruntjs.com/creating-tasks
 
-  grunt.registerMultiTask("proxy_middleware", "proxy tool what uses http-proxy-middleware", function() {
+  grunt.registerMultiTask("proxyMiddleware", "proxy tool what uses http-proxy-middleware", function() {
     // setup proxy
     var httpProxy = require("http-proxy-middleware");
     if (_.isString(this.data)) {
